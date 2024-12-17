@@ -27,4 +27,4 @@ Mobile Application
 The Android application provides a user-friendly interface to monitor water quality parameters remotely, ensuring accessibility and convenience.
 
 Demo
-Check out the video demonstration of the project to see it in action!
+Check out the video demonstration(https://drive.google.com/file/d/17rYgAkNsUIyD6-WSyTBsx_XJkcv8v4mb/view?usp=sharing) of the project to see it in action!
