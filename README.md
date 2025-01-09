@@ -25,6 +25,8 @@ Data is sent to Firebase for storage and access.
 The mobile app fetches data from Firebase and displays it in an easy-to-understand format.
 Mobile Application
 The Android application provides a user-friendly interface to monitor water quality parameters remotely, ensuring accessibility and convenience.
+![Alt text](PPT+REPORT/architecture.png)
+
 
 Demo
 Check out the video demonstration(https://drive.google.com/file/d/17rYgAkNsUIyD6-WSyTBsx_XJkcv8v4mb/view?usp=sharing) of the project to see it in action!
