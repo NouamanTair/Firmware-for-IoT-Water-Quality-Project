@@ -88,7 +88,7 @@ void loop() {
   // pH measurement with averaging
   if (pHArrayIndex == ArrayLenth) pHArrayIndex = 0; // Reset index if it reaches the limit
   pHArray[pHArrayIndex] = analogRead(SensorPin); // Read pH and store in array
-  float avgVoltage = avergearray(pHArray, ArrayLenth) * (5.0 / 4095.0);
+  float avgVoltage = avergearray(pHArray, ArrayLenth) * (3.3 / 4095.0);
   float pH = calibrationSlope * avgVoltage + calibrationIntercept;
   Serial.print("pH: ");
   Serial.println(pH);
@@ -160,7 +160,7 @@ double avergearray(int* arr, int number) {
 // Function to measure turbidity
 float measureTurbidity() {
   int sensorValue = analogRead(TurbiditySensorPin); // Read the analog value
-  float voltage = sensorValue * (5.0 / 1023.0); // Convert to voltage
+  float voltage = sensorValue * (3.3 / 1023.0); // Convert to voltage
 
   float turbidity;
   if (voltage <= 2.5) {
